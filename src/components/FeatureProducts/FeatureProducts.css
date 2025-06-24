@@ -1,0 +1,9 @@
+.featured-section {
+  margin: 2rem;
+}
+
+.featured-section .title {
+  color: #1a0b5b;
+  font-weight: 700;
+  text-align: center;
+}

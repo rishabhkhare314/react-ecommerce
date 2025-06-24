@@ -1,4 +1,4 @@
-.logo-title {
+.logoTitle {
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -9,11 +9,20 @@
   align-items: center;
 }
 
-.menu-items {
+.menuItems {
   display: flex;
   justify-content: space-between;
 }
 
-.menu-items div {
-    margin: 0 0.5rem;
+.menuItem {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.menuItem:hover {
+  /* background: grey; */
+  color: #fb2e86;
+}
+
+.active {
+  color: #fb2e86;
 }

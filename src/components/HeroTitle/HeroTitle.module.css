@@ -1,0 +1,44 @@
+.heroSection {
+  border: 1px solid #000000;
+  background-color: #f2f0ff;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.heroSectionBanner img {
+  height: 15rem;
+}
+.heroSectionBanner2 img {
+  height: 25rem;
+}
+
+.heroSectionContentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.subTitle {
+  color: #fb2e86;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.title {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.5rem 0.5rem 0.5rem 0rem;
+}
+.description {
+  color: #8a8fb9;
+  font-size: 0.75rem;
+}
+.heroBtn {
+  margin: 1rem 0;
+  color: #fff;
+  background: #fb2e86;
+  padding: 0.5rem;
+  border: none;
+}

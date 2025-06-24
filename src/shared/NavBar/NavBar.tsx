@@ -1,19 +1,19 @@
-import "./Navbar.css";
+import styles from "./Navbar.module.css";
 
 const NavBar = () => {
   return (
     <div className="container">
-      <div className="menu">
-        <div className="logo-title">
+      <div className={`${styles.menu}`}>
+        <div className={`${styles.logoTitle}`}>
           <h2>Hekto</h2>
         </div>
-        <div className="menu-items">
-          <div>Home</div>
-          <div>Pages</div>
-          <div>Products</div>
-          <div>Blog</div>
-          <div>Shop</div>
-          <div>Contacts</div>
+        <div className={`${styles.menuItems}`}>
+          <div className={`${styles.menuItem} ${styles.active}`}>Home</div>
+          <div className={`${styles.menuItem}`}>Pages</div>
+          <div className={`${styles.menuItem}`}>Products</div>
+          <div className={`${styles.menuItem}`}>Blog</div>
+          <div className={`${styles.menuItem}`}>Shop</div>
+          <div className={`${styles.menuItem}`}>Contacts</div>
         </div>
         <div>
           <input type="text" placeholder="search item" />

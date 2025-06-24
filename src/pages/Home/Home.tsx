@@ -1,3 +1,4 @@
+import FeatureProducts from "../../components/FeatureProducts";
 import HeroTitle from "../../components/HeroTitle";
 import { HeadingBar, NavBar } from "../../shared";
 
@@ -7,6 +8,7 @@ const Home = () => {
       <HeadingBar />
       <NavBar />
       <HeroTitle />
+      <FeatureProducts />
     </div>
   );
 };
