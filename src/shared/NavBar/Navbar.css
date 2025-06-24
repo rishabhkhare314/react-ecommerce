@@ -1,0 +1,19 @@
+.logo-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-items div {
+    margin: 0 0.5rem;
+}
