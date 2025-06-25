@@ -1,0 +1,116 @@
+.title {
+  color: #1a0b5b;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.latestItems {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.latestItem {
+  /* border: 2px solid red; */
+  max-height: 15.5rem;
+  width: 30%;
+  max-width: 255px;
+  margin: 1rem;
+  position: relative;
+}
+
+.featureImgWrapper {
+  background: #f7f7f7;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featureImg {
+  background-color: #f7f7f7;
+  height: 12.5rem;
+  width: 12.5rem;
+}
+.featureContent {
+  display: flex;
+  justify-content: space-between;
+}
+.prdocutTitle {
+  font-size: 0.875rem;
+  color: #151874;
+  font-weight: 600;
+}
+.price {
+  display: flex;
+  justify-content: flex-end;
+  color: #151874;
+  align-items: center;
+}
+.prdocutPrice {
+  font-size: 0.875rem;
+  margin-right: 0.25rem;
+  font-weight: 600;
+}
+.prdocutdefaultPrice {
+  font-size: 0.75rem;
+  color: #fb2448;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+
+/* .saleTag {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: #3f509e;
+  color: white;
+  padding: 0.3rem 1rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 10;
+  
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
+}
+
+.saleTag::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0.7rem;
+  height: 0.7rem;
+  background: #2c3a8c;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+} */
+
+.saleTag {
+  position: absolute;
+  top: 1rem;
+  left: 0rem;
+  background-color: #3f509e;
+  color: white;
+  padding: 0.3rem 1rem 0.3rem 1.5rem; /* extra left padding for fold */
+  font-size: 0.75rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 10;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 15%);
+}
+
+.saleTag::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 1rem;
+  background: #2c3a8c; /* darker fold color */
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+}

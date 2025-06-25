@@ -1,0 +1,20 @@
+.tabItems {
+  display: flex;
+  justify-content: center;
+}
+
+.tabItem {
+  font-size: 1rem;
+  color: #151875;
+  text-transform: capitalize;
+  padding: 0.5rem;
+}
+
+.tabItem:hover {
+  color: #fb2e86;
+}
+
+.active {
+  color: #fb2e86;
+  text-decoration: underline;
+}

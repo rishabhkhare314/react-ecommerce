@@ -1,0 +1,57 @@
+.featuredSection {
+  margin: 2rem 0;
+}
+
+.title {
+  color: #1a0b5b;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.card {
+  height: 20rem;
+  /* width: 14rem; */
+  width: 23%;
+  box-shadow: 0 0 4px 2px #d0d0d1;
+  margin: 0.5rem;
+}
+
+.imageWrapper {
+  height: 65%;
+  width: 100%;
+  background-color: #f6f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  height: 35%;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.itemTitle {
+  font-size: 1rem;
+  color: #fb2e86;
+}
+
+.itemCode {
+  font-size: 0.875rem;
+  color: #151875;
+  padding: 0.5rem;
+}
+
+.itemPrice {
+  font-size: 0.875rem;
+  color: #151875;
+}
+
+.featureCard {
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+}
