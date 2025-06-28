@@ -6,7 +6,7 @@ const HeadingBar = () => {
       <div className={`${styles.contentSection}`}>
         <div className={`${styles.content}`}>
           <img src="/icons/message.svg" alt="message-icon" className="mr-4" />
-          <p>mhhasanul@gmail.com</p>
+          <p>support@gmail.com</p>
         </div>
         <div className={`${styles.content}`}>
           <img src="/icons/phone-call.svg" alt="phone-icon" className="mr-4" />
