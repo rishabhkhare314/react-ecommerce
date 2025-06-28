@@ -1,0 +1,23 @@
+.offerItems {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.offerItem {
+  /* border: 2px solid red; */
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow: -1px 5px 0px 0px #e9e9e9;
+}
+
+.offerTitle {
+  padding: 1rem 0;
+  color: #151875;
+  font-weight: 500;
+}
+
+.offerSubtitle {
+  font-size: 0.75rem;
+  color: #bbb6ce;
+}

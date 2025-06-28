@@ -1,0 +1,49 @@
+.bannerSection {
+  height: 20rem;
+  width: 100%;
+  background-color: #f1f0ff;
+  margin: 2.5rem 0;
+}
+
+.bannerImg {
+  height: 18rem;
+  margin: 1rem;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listItems {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-size: 0.875rem;
+  color: #acabc3;
+}
+
+.listItems li::marker {
+  font-size: 1.2rem;
+  color: #acabc3;
+}
+
+.listItems li:nth-child(1)::marker {
+  color: #f52b70;
+}
+.listItems li:nth-child(2)::marker {
+  color: #2b2bf5;
+}
+.listItems li:nth-child(3)::marker {
+  color: #2bf5cc;
+
+
+}
+
+.listItems li {
+    font-size: 0.875rem;
+}
+
+.bannerText {
+    text-align: left !important;
+}

@@ -1,3 +1,4 @@
+import SectionTitle from "../SectionTitle/SectionTitle";
 import styles from "./FeatureProducts.module.css";
 
 type FeatureProduct = {
@@ -17,7 +18,8 @@ const FeatureProducts: React.FC<FeatureProductsProps> = ({
 }): React.ReactElement => {
   return (
     <section className={`${styles.featuredSection} container`}>
-      <h2 className={`${styles.title}`}>Featured Products</h2>
+      {/* <h2 className={`${styles.title}`}>Featured Products</h2> */}
+      <SectionTitle title="Featured Products" />
       <div  className={`${styles.featureCard}`}>
       {products?.map((product: FeatureProduct) => (
         <div className={`${styles.card}`} key={product?.id}>

@@ -1,4 +1,4 @@
-import { Tabs } from "../../shared";
+import Tabs from "../Tabs";
 import styles from "./LatestProduct.module.css";
 
 type Product = {
