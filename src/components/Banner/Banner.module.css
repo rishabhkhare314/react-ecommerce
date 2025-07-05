@@ -1,5 +1,5 @@
 .bannerSection {
-  height: 20rem;
+  /* height: 20rem; */
   width: 100%;
   background-color: #f1f0ff;
   margin: 2.5rem 0;
@@ -46,4 +46,14 @@
 
 .bannerText {
     text-align: left !important;
+}
+
+
+@media only screen and (max-width: 850px) {
+  .banner {
+    flex-direction: column-reverse;
+  }
+  /* .bannerImg {
+    display: none;
+  } */
 }

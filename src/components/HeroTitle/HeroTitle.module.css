@@ -5,9 +5,11 @@
   display: flex;
   justify-content: space-between;
 }
+
 .heroSectionBanner img {
   height: 15rem;
 }
+
 .heroSectionBanner2 img {
   height: 25rem;
 }
@@ -31,14 +33,46 @@
   font-weight: 600;
   padding: 0.5rem 0.5rem 0.5rem 0rem;
 }
+
 .description {
   color: #8a8fb9;
   font-size: 0.75rem;
 }
+
 .heroBtn {
   margin: 1rem 0;
   color: #fff;
   background: #fb2e86;
   padding: 0.5rem;
   border: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subTitle {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .heroSection {
+    padding: 0;
+  }
+
+  .heroSectionBanner img {
+    height: 10rem;
+  }
+
+  .heroSectionBanner2 img {
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .heroSectionBanner2 img {
+    display: none;
+  }
 }

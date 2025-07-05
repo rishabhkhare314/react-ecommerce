@@ -1,6 +1,8 @@
 .offerItems {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+
 }
 
 .offerItem {
@@ -9,6 +11,7 @@
   text-align: center;
   padding: 1rem 0;
   box-shadow: -1px 5px 0px 0px #e9e9e9;
+  width: 20%;
 }
 
 .offerTitle {
@@ -20,4 +23,17 @@
 .offerSubtitle {
   font-size: 0.75rem;
   color: #bbb6ce;
+}
+
+
+@media only screen and (max-width: 850px) {
+  .offerItem {
+    width: 40%
+}
+}
+
+@media only screen and (max-width: 550px) {
+   .offerItem {
+    width: 100%
+}
 }

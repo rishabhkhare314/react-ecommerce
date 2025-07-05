@@ -26,3 +26,55 @@
 .active {
   color: #fb2e86;
 }
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.hamburgerMenu {
+  display: none;
+}
+.sidebarMenu {
+display: none;
+}
+@media only screen and (max-width: 950px) {
+  .menuItems {
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .logoTitle {
+    font-size: 0.75rem;
+  }
+
+  .menuItems {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menuItems {
+    /* justify-content: ; */
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .hamburgerMenu {
+    display: block;
+  }
+.sidebarMenu {
+  position: fixed;
+  height: 100%;
+  width: 70%;
+  background-color: grey;
+  z-index: 999;
+  left: 0;
+  bottom: 0;
+}
+
+  .navItems {
+    display: none;
+  }
+}
